@@ -47,4 +47,34 @@
     <servlet-name>webxml_TestServlet</servlet-name>
     <url-pattern>/webxml_TestServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>mvctestdemo</display-name>
+    <servlet-name>mvctestdemo</servlet-name>
+    <servlet-class>com.demo.servletdemo.mvctestdemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mvctestdemo</servlet-name>
+    <url-pattern>/mvctestdemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>mvc1Servlet</display-name>
+    <servlet-name>mvc1Servlet</servlet-name>
+    <servlet-class>com.demo.servletdemo.mvc1Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mvc1Servlet</servlet-name>
+    <url-pattern>/mvc1Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>mvcservlettest</display-name>
+    <servlet-name>mvcservlettest</servlet-name>
+    <servlet-class>com.mvcpackage.test.mvcservlettest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mvcservlettest</servlet-name>
+    <url-pattern>/mvcservlettest</url-pattern>
+  </servlet-mapping>
 </web-app>
